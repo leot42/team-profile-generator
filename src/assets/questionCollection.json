@@ -1,0 +1,73 @@
+{
+    "1": {
+        "type": "input",
+        "name": "gitHubUserName",
+        "message": "What is the GitHub user name to attach to the project? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "2": {
+        "type": "input",
+        "name": "projectTitle",
+        "message": "What would you like the project title to be? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "3": {
+        "type": "editor",
+        "name": "projectDescription",
+        "message": "How would you describe your project? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "4": {
+        "type": "editor",
+        "name": "featuresDescription",
+        "message": "What features does your project have?"
+    },
+    "5": {
+        "type": "confirm",
+        "name": "tableOfContentsDescription",
+        "message": "Do you want the readme to have a table of contents? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "6": {
+        "type": "editor",
+        "name": "installationDescription",
+        "message": "What are your installation instructions? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "7": {
+        "type": "editor",
+        "name": "usageDescription",
+        "message": "What are your usage instructions? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "8": {
+        "type": "list",
+        "name": "licenseTypeDescription",
+        "message": "What type of license will this project use? (Required)",
+        "choices": "licenseTypeChoices",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "9": {
+        "type": "editor",
+        "name": "contributionsDescription",
+        "message": "What are your contribution guidelines? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "10": {
+        "type": "editor",
+        "name": "creditsDescription",
+        "message": "Who would you like to give credit to?"
+    },
+    "11": {
+        "type": "editor",
+        "name": "testsDescription",
+        "message": "What are your test instructions? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    },
+    "12": {
+        "type": "input",
+        "name": "yourEmail",
+        "message": "What email should questions be sent to? (Required)",
+        "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
+    }
+}
