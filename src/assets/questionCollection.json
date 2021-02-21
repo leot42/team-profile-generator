@@ -1,24 +1,24 @@
 {
     "managerInfo": {
-        "1": {
+        "0": {
         "type": "input",
         "name": "managerName",
         "message": "What is the manager's name? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "2": {
+        "1": {
         "type": "input",
         "name": "managerId",
         "message": "What is your managerial Id number? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "3": {
+        "2": {
         "type": "input",
         "name": "managerEmail",
         "message": "What is your manager's email? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "4": {
+        "3": {
         "type": "input",
         "name": "managerOfficeNumber",
         "message": "What is the GitHub user name to attach to the project? (Required)",
@@ -26,25 +26,25 @@
         }
     },
     "engineerInfo": {
-        "1": {
+        "0": {
         "type": "input",
         "name": "engineerName",
         "message": "What is the engineer's name? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "2": {
+        "1": {
         "type": "input",
         "name": "engineerId",
         "message": "What is your engineers Id number? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "3": {
+        "2": {
         "type": "input",
         "name": "engineerEmail",
         "message": "What is your engineer's email? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "4": {
+        "3": {
         "type": "input",
         "name": "gitHubUserName",
         "message": "What is the GitHub user name to attach to the project? (Required)",
@@ -52,25 +52,25 @@
         }
     },
     "internInfo": {
-        "1": {
+        "0": {
         "type": "input",
         "name": "internName",
         "message": "What is the intern's name? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "2": {
+        "1": {
         "type": "input",
         "name": "internId",
         "message": "What is your intern's Id number? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "3": {
+        "2": {
         "type": "input",
         "name": "internEmail",
         "message": "What is your intern's email? (Required)",
         "validate": "(answer) => IsAnswerGivenNotEmpty(answer)"
         },
-        "4": {
+        "3": {
         "type": "input",
         "name": "internSchool",
         "message": "What is the name of the intern's school? (Required)",
