@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <div>
+      <div class="mermaid">
+          classDiagram
+          Employee <|-- Engineer
+          Employee <|-- Manager
+          Employee <|-- Intern
+
+          class Employee {
+              -#id : Number
+              -#name : String
+              -#email : String
+              +constructor(name : String, id : Number, email : String)
+              +getEmail() String
+              +getId() Number
+              +getName() String
+          }
+          class Manager {
+            -#id : Number
+            -#name : String
+            -#email : String
+            -#officeNumber : Number
+            +constructor(name : String, id : Number, email : String, officeNumber : Number)
+            -super(name : String, id : Number, email : String)
+            +getEmail() String
+            +getId() Number
+            +getName() String
+            +getOfficeNumber() Number
+          }
+          class Engineer {
+            -#id : Number
+            -#name : String
+            -#email : String
+            -#githubUserName : String
+            +constructor(name : String, id : Number, email : String, githubUserName : String)
+            -super(name : String, id : Number, email : String)
+            +getEmail() String
+            +getId() Number
+            +getName() String
+            +githubUserName() String
+          }
+          class Intern {
+            -#id : Number
+            -#name : String
+            -#email : String
+            -#school : String
+            +constructor(name : String, id : Number, email : String, school : String)
+            -super(name : String, id : Number, email : String)
+            +getEmail() String
+            +getId() Number
+            +getName() String
+            +getSchool() String
+          }
+          
+      </div>
+  </div>
+ <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+ <script>mermaid.initialize({startOnLoad:true});</script>
+</body>
+</html>
